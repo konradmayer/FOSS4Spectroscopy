@@ -11,7 +11,7 @@
 
 <meta name="author" content="Bryan A. Hanson, DePauw University" />
 
-<meta name="date" content="2020-02-27" />
+<meta name="date" content="2020-03-04" />
 
 <title>FOSS For Spectroscopy</title>
 
@@ -331,7 +331,7 @@ var Ng={"":"n",UA:"u",AW:"a",DC:"d",G:"e",GF:"f",HA:"h",GTM:Lg,OPT:"o"},Og=funct
 "";return f+d+Xc.yb+e};
 var Pg=function(a){var b=vf(a,"/pagead/conversion_async.js");return b?b:-1===navigator.userAgent.toLowerCase().indexOf("firefox")?R("https://","http://","www.googleadservices.com/pagead/conversion_async.js"):"https://www.google.com/pagead/conversion_async.js"},Qg=!1,Rg=[],Sg=["aw","dc"],Tg=function(a){var b=D.google_trackConversion,c=a.gtm_onFailure;"function"==typeof b?b(a)||c():c()},Ug=function(){for(;0<Rg.length;)Tg(Rg.shift())},Vg=function(a){if(!Qg){Qg=!0;Je();var b=function(){Ug();Rg={push:Tg}};
 Wd()?b():lc(a,b,function(){Ug();Qg=!1})}},Wg=function(a){if(a){for(var b=[],c=0;c<a.length;++c){var d=a[c];d&&b.push({item_id:d.id,quantity:d.quantity,value:d.price,start_date:d.start_date,end_date:d.end_date})}return b}},Xg=function(a,b,c,d){var e=Uc(a),f=b==H.D,h=e.o[0],k=e.o[1],l=void 0!==k,m=function(T){return d.getWithConfig(T)},n=!1!==m(H.Ca),q=m(H.Aa)||m(H.S),u=m(H.P),p=m(H.Y),t=m(H.oa),v=Pg(t);if(f){var w=m(H.ma)||{};if(n){sg(w[H.Ua],!!w[H.C])&&Fg(Sg,q,void 0,u,p);var y={prefix:q,domain:u,
-Ka:p};Cg(y);Jg(["aw","dc"],y)}w[H.C]&&Hg(Sg,w[H.C],w[H.Xa],!!w[H.Va],q);var x=!1;x?ie(e,d):ie(e);}var B=!1===m(H.Bd)||!1===m(H.$a);if(!f||!l&&!B)if(!0===m(H.Cd)&&(l=!1),!1!==m(H.X)||l){var z={google_conversion_id:h,google_remarketing_only:!l,onload_callback:d.B,
+Ka:p};Cg(y);Jg(["aw","dc"],y)}w[H.C]&&Hg(Sg,w[H.C],w[H.Xa],!!w[H.Va],q);var x=!1;x=!0;x?ie(e,d):ie(e);}var B=!1===m(H.Bd)||!1===m(H.$a);if(!f||!l&&!B)if(!0===m(H.Cd)&&(l=!1),!1!==m(H.X)||l){var z={google_conversion_id:h,google_remarketing_only:!l,onload_callback:d.B,
 gtm_onFailure:d.w,google_conversion_format:"3",google_conversion_color:"ffffff",google_conversion_domain:"",google_conversion_label:k,google_conversion_language:m(H.Ea),google_conversion_value:m(H.W),google_conversion_currency:m(H.fa),google_conversion_order_id:m(H.ab),google_user_id:m(H.cb),google_conversion_page_url:m(H.Ya),google_conversion_referrer_url:m(H.Za),google_gtm:Og(),google_transport_url:vf(t,"/")};z.google_restricted_data_processing=m(H.oc);
 Wd()&&(z.opt_image_generator=function(){return new Image},z.google_enable_display_cookie_match=!1);!1===m(H.X)&&(z.google_allow_ad_personalization_signals=!1);z.google_read_gcl_cookie_opt_out=!n;n&&q&&(z.google_gcl_cookie_prefix=q);var A=function(){var T=m(H.Hb),da={event:b};if(va(T)){P("GTM",26);for(var ea=0;ea<T.length;++ea){var N=T[ea],L=m(N);void 0!==L&&(da[N]=L)}return da}var Q=d.eventModel;if(!Q)return null;C(Q,da);for(var S=0;S<H.yd.length;++S)delete da[H.yd[S]];
 return da}();A&&(z.google_custom_params=A);!l&&m(H.M)&&(z.google_gtag_event_data={items:m(H.M),value:m(H.W)});if(l&&b==H.la){z.google_conversion_merchant_id=m(H.Id);z.google_basket_feed_country=m(H.Fd);z.google_basket_feed_language=m(H.Hd);z.google_basket_discount=m(H.Dd);z.google_basket_transaction_type=b;z.google_disable_merchant_reported_conversions=!0===m(H.Rd);Wd()&&(z.google_disable_merchant_reported_conversions=!0);var F=Wg(m(H.M));F&&(z.google_conversion_items=F)}var J=function(T,da){void 0!=
@@ -359,7 +359,7 @@ f(c));g("LANDING_PAGE")&&(k.page_type="LANDING_PAGE");if(!va(e)||0==e.length)ret
 {sa:"id",Gd:"price",ia:"start_date",Pa:"end_date",af:"occupancy",Kd:"room_id",Jd:"rate_rule_id"},Dh=["ha"];
 var Yh=function(a,b,c,d){var e="https://www.google-analytics.com/analytics.js",f=Qe();if(ra(f)){var h="gtag_"+a.split("-").join("_"),k=function(x){var B=[].slice.call(arguments,0);B[0]=h+"."+B[0];f.apply(window,B)},l=function(){var x=function(F,J){for(var M=0;J&&M<J.length;M++)k(F,J[M])},B=Ph(b,d);if(B){var z=B.action;if("impressions"===z)x("ec:addImpression",B.jg);else if("promo_click"===z||"promo_view"===z){var A=B.Wc;x("ec:addPromo",B.Wc);A&&0<A.length&&"promo_click"===z&&k("ec:setAction",z)}else x("ec:addProduct",
 B.La),k("ec:setAction",z,B.eb)}},m=function(){if(Wd()){}else{var x=d.getWithConfig(H.Te);x&&(k("require",x,{dataLayer:"dataLayer"}),k("require","render"))}},n=Qh(a,h,b,d);Rh(h,n.Ga)&&(f(function(){Oe()&&Oe().remove(h)}),Sh[h]=!1);f("create",a,n.Ga);(function(){var x=d.getWithConfig("custom_map");f(function(){if(Sa(x)){var B=n.ja,z=Oe().getByName(h),A;for(A in x)if(x.hasOwnProperty(A)&&/^(dimension|metric)\d+$/.test(A)&&void 0!=x[A]){var F=z.get(Th(x[A]));Uh(B,A,F)}}})})();(function(x){if(x){var B={};if(Sa(x))for(var z in Vh)Vh.hasOwnProperty(z)&&Wh(Vh[z],z,x[z],B);k("require","linkid",B)}})(n.linkAttribution);
-var u=n[H.ma];if(u&&u[H.C]){var p=u[H.Xa];Re(h+".",u[H.C],void 0===p?!!u.use_anchor:"fragment"===p,!!u[H.Va])}var t=function(x,B,z){z&&(B=""+B);n.ja[x]=B};if(b===H.bd)m(),k("send","pageview",n.ja);else if(b===H.D){m();var v=!1;v?ie(a,d):ie(a);0!=n.sendPageView&&k("send","pageview",n.ja)}else"screen_view"===b?k("send","screenview",n.ja):"timing_complete"===b?(t("timingCategory",
+var u=n[H.ma];if(u&&u[H.C]){var p=u[H.Xa];Re(h+".",u[H.C],void 0===p?!!u.use_anchor:"fragment"===p,!!u[H.Va])}var t=function(x,B,z){z&&(B=""+B);n.ja[x]=B};if(b===H.bd)m(),k("send","pageview",n.ja);else if(b===H.D){m();var v=!1;v=!0;v?ie(a,d):ie(a);0!=n.sendPageView&&k("send","pageview",n.ja)}else"screen_view"===b?k("send","screenview",n.ja):"timing_complete"===b?(t("timingCategory",
 n.eventCategory,!0),t("timingVar",n.name,!0),t("timingValue",Ba(n.value)),void 0!==n.eventLabel&&t("timingLabel",n.eventLabel,!0),k("send","timing",n.ja)):"exception"===b?k("send","exception",n.ja):"optimize.callback"!==b&&(0<=r([H.$c,"select_content",H.Ta,H.Ab,H.Bb,H.Sa,"set_checkout_option",H.la,H.Cb,"view_promotion","checkout_progress"],b)&&(k("require","ec","ec.js"),l()),t("eventCategory",n.eventCategory,!0),t("eventAction",n.eventAction||b,!0),void 0!==n.eventLabel&&t("eventLabel",n.eventLabel,
 !0),void 0!==n.value&&t("eventValue",Ba(n.value)),k("send","event",n.ja));if(!Xh){Xh=!0;Je();var w=d.w,y=function(){Oe().loaded||w()};Wd()?G(y):lc(e,y,w)}}else G(d.w)},Xh,Sh={},Zh={client_id:1,client_storage:"storage",cookie_name:1,cookie_domain:1,cookie_expires:1,cookie_path:1,cookie_update:1,cookie_flags:1,sample_rate:1,site_speed_sample_rate:1,use_amp_client_id:1,store_gac:1,conversion_linker:"storeGac"},$h={anonymize_ip:1,app_id:1,app_installer_id:1,app_name:1,app_version:1,campaign:{name:"campaignName",
 source:"campaignSource",medium:"campaignMedium",term:"campaignTerm",content:"campaignContent",id:"campaignId"},currency:"currencyCode",description:"exDescription",fatal:"exFatal",language:1,non_interaction:1,page_hostname:"hostname",page_referrer:"referrer",page_path:"page",page_location:"location",page_title:"title",screen_name:1,transport_type:"transport",user_id:1},ai={content_id:1,event_category:1,event_action:1,event_label:1,link_attribution:1,linker:1,method:1,name:1,send_page_view:1,value:1},
@@ -609,7 +609,7 @@ summary {
 
 <h1 class="title toc-ignore">FOSS For Spectroscopy</h1>
 <h4 class="author">Bryan A. Hanson, DePauw University</h4>
-<h4 class="date">2020-02-27</h4>
+<h4 class="date">2020-03-04</h4>
 
 </div>
 
@@ -640,7 +640,7 @@ a:link:after, a:visited:after {
 <ul>
 <li><em>Click on a header to sort the table (“Focus” may be a good starting point)</em></li>
 <li><a href="#abbreviations">Abbreviations</a> &amp; terms below the table</li>
-<li>The table currently has 101 entries; the majority are <code>R</code> (34) or <code>Python</code> (50).</li>
+<li>The table currently has 102 entries; the majority are <code>R</code> (35) or <code>Python</code> (50).</li>
 </ul>
 <table class="sortable table table-striped table-bordered" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -761,7 +761,7 @@ Python
 NMR (1D)
 </td>
 <td style="text-align:left;">
-2020-02-24
+2020-03-02
 </td>
 </tr>
 <tr>
@@ -778,7 +778,7 @@ Python
 NMR
 </td>
 <td style="text-align:left;">
-2020-02-24
+2020-03-03
 </td>
 </tr>
 <tr>
@@ -1254,7 +1254,7 @@ C++
 UV-VIS-IR
 </td>
 <td style="text-align:left;">
-2020-02-25
+2020-02-27
 </td>
 </tr>
 <tr>
@@ -1288,7 +1288,7 @@ Python
 NMR
 </td>
 <td style="text-align:left;">
-2020-02-26
+2020-03-03
 </td>
 </tr>
 <tr>
@@ -1631,6 +1631,23 @@ NMR
 </tr>
 <tr>
 <td style="text-align:left;">
+<a href="https://griffithdan.github.io/pages/code_and_data/plantspec.html">plantspec</a> (<a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13143">pub</a>)
+</td>
+<td style="text-align:left;">
+Spectral analysis of plant stoichiometry
+</td>
+<td style="text-align:left;">
+R
+</td>
+<td style="text-align:left;">
+NIR
+</td>
+<td style="text-align:left;">
+2019-03-20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 <a href="https://github.com/zhangfy1993/PRFFECT">PRFFECT</a> (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0169743917305257">pub</a>)
 </td>
 <td style="text-align:left;">
@@ -1762,7 +1779,7 @@ Python
 NMR, ESR
 </td>
 <td style="text-align:left;">
-2020-02-25
+2020-03-03
 </td>
 </tr>
 <tr>
@@ -1796,7 +1813,7 @@ Python
 Data Sharing
 </td>
 <td style="text-align:left;">
-2020-02-20
+2020-03-02
 </td>
 </tr>
 <tr>
@@ -1813,7 +1830,7 @@ Python
 IR
 </td>
 <td style="text-align:left;">
-2020-02-22
+2020-02-27
 </td>
 </tr>
 <tr>
@@ -2000,7 +2017,7 @@ R
 Near-IR, Mid-IR
 </td>
 <td style="text-align:left;">
-2019-12-17
+2020-03-01
 </td>
 </tr>
 <tr>
@@ -2068,7 +2085,7 @@ Python
 Any
 </td>
 <td style="text-align:left;">
-2020-02-14
+2020-03-02
 </td>
 </tr>
 <tr>
@@ -2153,7 +2170,7 @@ Python
 UV-Vis
 </td>
 <td style="text-align:left;">
-2020-02-26
+2020-03-03
 </td>
 </tr>
 <tr>
@@ -2204,7 +2221,7 @@ Python
 NMR (SS)
 </td>
 <td style="text-align:left;">
-2020-02-21
+2020-03-02
 </td>
 </tr>
 <tr>
@@ -2306,7 +2323,7 @@ Python
 Raman
 </td>
 <td style="text-align:left;">
-2020-02-18
+2020-03-02
 </td>
 </tr>
 <tr>
