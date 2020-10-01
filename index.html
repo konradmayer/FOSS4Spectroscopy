@@ -11,7 +11,7 @@
 
 <meta name="author" content="Bryan A. Hanson, DePauw University" />
 
-<meta name="date" content="2020-09-24" />
+<meta name="date" content="2020-10-01" />
 
 <title>FOSS For Spectroscopy</title>
 
@@ -528,7 +528,7 @@ Rg={af:"",Df:"5"},Sg={functionName:"_googCallTrackingImpl",Ub:[Qg.functionName,P
 Tg[h.id]||(h&&"AW"===h.prefix&&!e.adData&&2<=h.C.length?(e.adData={ak:h.C[0],cl:h.C[1]},Tg[h.id]=!0):h&&"UA"===h.prefix&&!e.gaData&&(e.gaData={gaWpid:h.containerId},Tg[h.id]=!0))}(e.gaData||e.adData)&&Og(Sg,d)(d.na,e,d.options)}},Xg=function(){var a=!1;return a},Yg=function(a,b){if(a)if(Kg()){}else{if(g(a)){var c=
 Hg(a);if(!c)return;a=c}var d=void 0,e=!1,f=b.getWithConfig(C.$e);if(f&&wa(f)){d=[];for(var h=0;h<f.length;h++){var k=Hg(f[h]);k&&(d.push(k),(a.id===k.id||a.id===a.containerId&&a.containerId===k.containerId)&&(e=!0))}}if(!d||e){var l=b.getWithConfig(C.Le),p;if(l){wa(l)?p=l:p=[l];var n=b.getWithConfig(C.Ge),r=b.getWithConfig(C.Ke),t=b.getWithConfig(C.Ne),q=b.getWithConfig(C.Mf),u=n||r,v=1;"UA"!==a.prefix||d||(v=5);for(var w=0;w<p.length;w++)if(w<v)if(d)Vg(d,p[w],q,{na:u,options:t});else if("AW"===a.prefix&&
 a.C[1])Xg()?Vg([a],p[w],q||"US",{na:u,options:t}):Ug(a.C[0],a.C[1],p[w],{na:u,options:t});else if("UA"===a.prefix)if(Xg())Vg([a],p[w],q||"US",{na:u});else{var y=a.containerId,x=p[w],A={na:u};qc(23);if(x){A=A||{};var B=Og(Qg,A,y),z={};void 0!==A.na?z.receiver=A.na:z.replace=x;z.ga_wpid=y;z.destination=x;B(2,new Date,z)}}}}}};
-var ah=function(a){return sd(C.o)?a:a.replace(/&url=([^&#]+)/,function(b,c){var d=Ye(decodeURIComponent(c));return"&url="+encodeURIComponent(d)})},bh=function(){var a;if(!(a=Wd)){var b;if(!0===E._gtmdgs)b=!0;else{var c=Lc&&Lc.userAgent||"";b=0>c.indexOf("Safari")||/Chrome|Coast|Opera|Edg|Silk|Android/.test(c)||11>((/Version\/([\d]+)/.exec(c)||[])[1]||"")?!1:!0}a=!b}if(a)return 0;var d=Da("");return Qe(1,100)<=d?Qe(2,2):0};var ch=new RegExp(/^(.*\.)?(google|youtube|blogger|withgoogle)(\.com?)?(\.[a-z]{2})?\.?$/),dh={cl:["ecl"],customPixels:["nonGooglePixels"],ecl:["cl"],ehl:["hl"],hl:["ehl"],html:["customScripts","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],customScripts:["html","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],nonGooglePixels:[],nonGoogleScripts:["nonGooglePixels"],nonGoogleIframes:["nonGooglePixels"]},eh={cl:["ecl"],customPixels:["customScripts","html"],
+var ah=function(a){return sd(C.o)?a:a.replace(/&url=([^&#]+)/,function(b,c){var d=Ye(decodeURIComponent(c));return"&url="+encodeURIComponent(d)})},bh=function(){var a;if(!(a=Wd)){var b;if(!0===E._gtmdgs)b=!0;else{var c=Lc&&Lc.userAgent||"";b=0>c.indexOf("Safari")||/Chrome|Coast|Opera|Edg|Silk|Android/.test(c)||11>((/Version\/([\d]+)/.exec(c)||[])[1]||"")?!1:!0}a=!b}if(a)return 0;var d=Da("-1");return Qe(1,100)<=d?Qe(2,2):0};var ch=new RegExp(/^(.*\.)?(google|youtube|blogger|withgoogle)(\.com?)?(\.[a-z]{2})?\.?$/),dh={cl:["ecl"],customPixels:["nonGooglePixels"],ecl:["cl"],ehl:["hl"],hl:["ehl"],html:["customScripts","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],customScripts:["html","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],nonGooglePixels:[],nonGoogleScripts:["nonGooglePixels"],nonGoogleIframes:["nonGooglePixels"]},eh={cl:["ecl"],customPixels:["customScripts","html"],
 ecl:["cl"],ehl:["hl"],hl:["ehl"],html:["customScripts"],customScripts:["html"],nonGooglePixels:["customPixels","customScripts","html","nonGoogleScripts","nonGoogleIframes"],nonGoogleScripts:["customScripts","html"],nonGoogleIframes:["customScripts","html","nonGoogleScripts"]},fh="google customPixels customScripts html nonGooglePixels nonGoogleScripts nonGoogleIframes".split(" ");
 var hh=function(a){var b;b||(b=Ge("gtm.whitelist"));b&&qc(9);b="google gtagfl lcl zone oid op".split(" ");
 var c=b&&Ma(Fa(b),dh),d;d||(d=Ge("gtm.blacklist"));d||(d=Ge("tagTypeBlacklist"))&&qc(3);d?qc(8):d=[];gh()&&(d=Fa(d),d.push("nonGooglePixels","nonGoogleScripts","sandboxedScripts"));0<=xa(Fa(d),"google")&&qc(2);var e=d&&Ma(Fa(d),eh),f={};return function(h){var k=
@@ -586,7 +586,7 @@ var Lj=function(a,b,c,d){function e(){Si()&&(B+="&gdpr_consent="+encodeURICompon
 encodeURIComponent(A)+"/";if(b===C.Aa){var z=Ij(h(C.wb),h(C.sa),h(C.ra),h(C.X));z=encodeURIComponent(Jj(z));B+="?data="+z}else if(b===C.Oa){var D=Kj(A,h(C.sa),h(C.Be),h(C.ra),h(C.X));D=encodeURIComponent(Jj(D));B+="?label=FH&guid=ON&script=0&ord="+za(0,4294967295)+("&price="+D)}else{H(d.F);return}sd(C.o)?e():od(e,C.o)}else H(d.F)}},Ij=function(a,b,c,d){var e={};Mj(a)&&(e.hct_booking_xref=a);g(c)&&(e.hct_currency_code=c);Mj(b)&&(e.hct_total_price=b,e.hct_base_price=b);if(!wa(d)||0===d.length)return e;
 var f=d[0];if(!Sa(f))return e;Mj(f[Nj.Fc])&&(e.hct_partner_hotel_id=f[Nj.Fc]);g(f[Nj.Rc])&&(e.hct_checkin_date=f[Nj.Rc]);g(f[Nj.Ac])&&(e.hct_checkout_date=f[Nj.Ac]);return e},Kj=function(a,b,c,d,e){function f(n){void 0===n&&(n=0);if(Mj(n))return l+n}function h(n,r,t){t(r)&&(k[n]=r)}var k={};k.partner_id=a;var l="USD";g(d)&&(l=k.currency=d);Mj(b)&&(k.base_price_value_string=f(b),k.display_price_value_string=f(b));Mj(c)&&(k.tax_price_value_string=f(c));g("LANDING_PAGE")&&(k.page_type="LANDING_PAGE");
 if(!wa(e)||0==e.length)return k;var p=e[0];if(!Sa(p))return k;Mj(p[Nj.Qd])&&(k.total_price_value_string=f(p[Nj.Qd]));h("partner_hotel_id",p[Nj.Fc],Mj);h("check_in_date",p[Nj.Rc],g);h("check_out_date",p[Nj.Ac],g);h("adults",p[Nj.xf],Oj);h(Nj.Sd,p[Nj.Sd],g);h(Nj.Rd,p[Nj.Rd],g);return k},Jj=function(a){var b=[];Ca(a,function(c,d){b.push(c+"="+d)});return b.join(";")},Mj=function(a){return g(a)||Oj(a)},Oj=function(a){return"number"===typeof a},Nj={Fc:"id",Qd:"price",Rc:"start_date",Ac:"end_date",xf:"occupancy",
-Sd:"room_id",Rd:"rate_rule_id"},Hj=["ha"];var Qj=function(){var a=!0;Ti(7)&&Ti(9)&&Ti(10)||(a=!1);var b=!0;b&&!Pj()&&(a=!1);return a},Pj=function(){var a=!0;Ti(3)&&Ti(4)||(a=!1);return a};
+Sd:"room_id",Rd:"rate_rule_id"},Hj=["ha"];var Qj=function(){var a=!0;Ti(7)&&Ti(9)&&Ti(10)||(a=!1);var b=!0;b=!1;b&&!Pj()&&(a=!1);return a},Pj=function(){var a=!0;Ti(3)&&Ti(4)||(a=!1);return a};
 var Tj=function(a,b,c){if(ld()){var d=function(){var e=Fh(),f=Rj(a,b,"",c);Sj(b,f.wa)&&(e(function(){e.remove(b)}),e("create",a,f.wa))};od(d,C.L);od(d,C.o)}},dk=function(a,b,c){var d="https://www.google-analytics.com/analytics.js",e=Hh();if(ta(e)){var f="gtag_"+a.split("-").join("_"),h=function(z){var D=[].slice.call(arguments,0);D[0]=f+"."+D[0];e.apply(window,D)},k=function(){var z=function(O,T){for(var V=0;T&&V<T.length;V++)h(O,T[V])},D=Uj(b,c);if(D){var F=D.action;if("impressions"===F)z("ec:addImpression",
 D.Ng);else if("promo_click"===F||"promo_view"===F){var J=D.ud;z("ec:addPromo",D.ud);J&&0<J.length&&"promo_click"===F&&h("ec:setAction",F)}else z("ec:addProduct",D.Ua),h("ec:setAction",F,D.ib)}},l=function(){if(Kg()){}else{var z=c.getWithConfig(C.Kf);z&&(h("require",z,{dataLayer:"dataLayer"}),h("require","render"))}},p=Rj(a,f,b,c),n=function(z,D,F){F&&(D=""+D);p.xa[z]=D};Sj(f,p.wa)&&(e(function(){Fh()&&Fh().remove(f)}),
 Vj[f]=!1);e("create",a,p.wa);if(p.wa._x_19){var r=bi(p.wa._x_19,"/analytics.js");r&&(d=r);p.wa._x_20&&!Vj[f]&&(Vj[f]=!0,e(Lh(f,p.wa._x_20)))}(function(){var z=c.getWithConfig("custom_map");e(function(){if(Sa(z)){var D=p.xa,F=Fh().getByName(f),J;for(J in z)if(z.hasOwnProperty(J)&&/^(dimension|metric)\d+$/.test(J)&&void 0!=z[J]){var O=F.get(Wj(z[J]));Xj(D,J,O)}}})})();(function(z){if(z){var D={};if(Sa(z))for(var F in Yj)Yj.hasOwnProperty(F)&&Zj(Yj[F],F,z[F],D);h("require","linkid",D)}})(p.linkAttribution);
@@ -598,7 +598,7 @@ send_page_view:1,store_gac:1,conversion_linker:1},Zj=function(a,b,c,d){if(void 0
 a)?b="engagement":"exception"===a&&(b="error");return b},Xj=function(a,b,c){a.hasOwnProperty(b)||(a[b]=c)},ik=function(a){if(wa(a)){for(var b=[],c=0;c<a.length;c++){var d=a[c];if(void 0!=d){var e=d.id,f=d.variant;void 0!=e&&void 0!=f&&b.push(String(e)+"."+String(f))}}return 0<b.length?b.join("!"):void 0}},Rj=function(a,b,c,d){function e(F,J){void 0!==J&&(k[F]=J)}var f=function(F){return d.getWithConfig(F)},h={},k={},l={},p=ik(f(C.Ff));p&&Xj(k,"exp",p);var n=f("custom_map");if(Sa(n))for(var r in n)if(n.hasOwnProperty(r)&&
 /^(dimension|metric)\d+$/.test(r)&&void 0!=n[r]){var t=f(String(n[r]));void 0!==t&&Xj(k,r,t)}for(var q=li(d),u=0;u<q.length;++u){var v=q[u],w=f(v);if(fk.hasOwnProperty(v))Zj(fk[v],v,w,h);else if(bk.hasOwnProperty(v))Zj(bk[v],v,w,k);else if(ak.hasOwnProperty(v))Zj(ak[v],v,w,l);else if(/^(dimension|metric|content_group)\d+$/.test(v))Zj(1,v,w,k);else if("developer_id"===v){var y=Oa(w);y&&(k["&did"]=y)}else v===C.ca&&0>xa(q,C.xc)&&(l.cookieName=w+"_ga")}Xj(l,"cookieDomain","auto");Xj(k,"forceSSL",!0);
 Xj(h,"eventCategory",hk(c));0<=xa(["view_item","view_item_list","view_promotion","view_search_results"],c)&&Xj(k,"nonInteraction",!0);"login"===c||"sign_up"===c||"share"===c?Xj(h,"eventLabel",f(C.Jf)):"search"===c||"view_search_results"===c?Xj(h,"eventLabel",f(C.zg)):"select_content"===c&&Xj(h,"eventLabel",f(C.sf));var x=h[C.la]||{},A=x[C.lb];A||0!=A&&x[C.D]?l.allowLinker=!0:!1===A&&Xj(l,"useAmpClientId",!1);!1!==f(C.qf)&&!1!==f(C.fb)&&Qj()||(k.allowAdFeatures=!1);if(!1===f(C.fa)||!Pj()){var B="allowAdFeatures";
-k[B]=!1}l.name=b;k["&gtm"]=pi(!0);k.hitCallback=d.H;ld()&&(k["&gcs"]=td(),sd(C.L)||(l.storage="none"),sd(C.o)||(k.allowAdFeatures=!1,l.storeGac=!1));var z=f(C.Fa)||f(C.If)||Ge("gtag.remote_config."+a+".url",2),D=f(C.Hf)||Ge("gtag.remote_config."+
+B="allowAdPersonalizationSignals";k[B]=!1}l.name=b;k["&gtm"]=pi(!0);k.hitCallback=d.H;ld()&&(k["&gcs"]=td(),sd(C.L)||(l.storage="none"),sd(C.o)||(k.allowAdFeatures=!1,l.storeGac=!1));var z=f(C.Fa)||f(C.If)||Ge("gtag.remote_config."+a+".url",2),D=f(C.Hf)||Ge("gtag.remote_config."+
 a+".dualId",2);if(z&&null!=Mc){l._x_19=z;}D&&(l._x_20=D);h.xa=k;h.wa=l;return h},Uj=function(a,b){function c(v){var w=m(v);w.list=v.list_name;w.listPosition=v.list_position;w.position=v.list_position||v.creative_slot;w.creative=v.creative_name;return w}function d(v){for(var w=[],y=0;v&&y<v.length;y++)v[y]&&w.push(c(v[y]));return w.length?w:void 0}function e(v){return{id:f(C.wb),
 affiliation:f(C.Af),revenue:f(C.sa),tax:f(C.Be),shipping:f(C.Ef),coupon:f(C.Bf),list:f(C.Ic)||v}}for(var f=function(v){return b.getWithConfig(v)},h=f(C.X),k,l=0;h&&l<h.length&&!(k=h[l][C.Ic]);l++);var p=f("custom_map");if(Sa(p))for(var n=0;h&&n<h.length;++n){var r=h[n],t;for(t in p)p.hasOwnProperty(t)&&/^(dimension|metric)\d+$/.test(t)&&void 0!=p[t]&&Xj(r,t,r[p[t]])}var q=null,u=f(C.Cf);a===C.Aa||a===C.kc?q={action:a,ib:e(),Ua:d(h)}:a===C.fc?q={action:"add",Ua:d(h)}:a===C.jc?q={action:"remove",Ua:d(h)}:
 a===C.Oa?q={action:"detail",ib:e(k),Ua:d(h)}:a===C.Dc?q={action:"impressions",Ng:d(h)}:"view_promotion"===a?q={action:"promo_view",ud:d(u)}:"select_content"===a&&u&&0<u.length?q={action:"promo_click",ud:d(u)}:"select_content"===a?q={action:"click",ib:{list:f(C.Ic)||k},Ua:d(h)}:a===C.eb||"checkout_progress"===a?q={action:"checkout",Ua:d(h),ib:{step:a===C.eb?1:f(C.ze),option:f(C.xe)}}:"set_checkout_option"===a&&(q={action:"checkout_option",ib:{step:f(C.ze),option:f(C.xe)}});q&&(q.Uh=f(C.ra));return q},
@@ -679,6 +679,15 @@ if(!ve)break a;E.setInterval(we,864E5);}Yd=(new Date).getTime();Jo.bootstrap=Yd;
 
   gtag('config', 'UA-25299003-3');
 </script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -835,7 +844,7 @@ summary {
 
 <h1 class="title toc-ignore">FOSS For Spectroscopy</h1>
 <h4 class="author">Bryan A. Hanson, DePauw University</h4>
-<h4 class="date">2020-09-24</h4>
+<h4 class="date">2020-10-01</h4>
 
 </div>
 
@@ -987,7 +996,7 @@ Python
 NMR (1D)
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -1531,7 +1540,7 @@ Python
 NMR
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -1633,7 +1642,7 @@ Python
 NMR (nD)
 </td>
 <td style="text-align:left;">
-2020-09-09
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -1853,7 +1862,7 @@ Java
 XRF
 </td>
 <td style="text-align:left;">
-2020-09-16
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -2056,7 +2065,7 @@ Python
 NMR, ESR
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-29
 </td>
 </tr>
 <tr>
@@ -2107,7 +2116,7 @@ Python
 Any
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -2141,7 +2150,7 @@ Python
 Raman
 </td>
 <td style="text-align:left;">
-2020-04-30
+2020-09-28
 </td>
 </tr>
 <tr>
@@ -2226,7 +2235,7 @@ R
 Vis-IR
 </td>
 <td style="text-align:left;">
-2020-09-12
+2020-09-25
 </td>
 </tr>
 <tr>
@@ -2464,7 +2473,7 @@ Python
 UV-Vis
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-30
 </td>
 </tr>
 <tr>
@@ -2617,7 +2626,7 @@ Python
 Raman
 </td>
 <td style="text-align:left;">
-2020-09-23
+2020-09-25
 </td>
 </tr>
 <tr>
