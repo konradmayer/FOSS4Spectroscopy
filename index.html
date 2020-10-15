@@ -11,7 +11,7 @@
 
 <meta name="author" content="Bryan A. Hanson, DePauw University" />
 
-<meta name="date" content="2020-10-08" />
+<meta name="date" content="2020-10-15" />
 
 <title>FOSS For Spectroscopy</title>
 
@@ -532,8 +532,8 @@ Lg(a);if(!c)return;a=c}var d=void 0,e=!1,f=b.getWithConfig(C.Nf);if(f&&za(f)){d=
 a.C[1])ah()?$g([a],n[w],q||"US",{ma:v,options:t}):Zg(a.C[0],a.C[1],n[w],{ma:v,options:t});else if("UA"===a.prefix)if(ah())$g([a],n[w],q||"US",{ma:v});else{var y=a.containerId,x=n[w],B={ma:v};D(23);if(x){B=B||{};var z=Sg(Ug,B,y),A={};void 0!==B.ma?A.receiver=B.ma:A.replace=x;A.ga_wpid=y;A.destination=x;z(2,new Date,A)}}}}}};
 var eh=function(a){return yd(C.o)?a:a.replace(/&url=([^&#]+)/,function(b,c){var d=bf(decodeURIComponent(c));return"&url="+encodeURIComponent(d)})},fh=function(){var a;if(!(a=ae)){var b;if(!0===F._gtmdgs)b=!0;else{var c=Rc&&Rc.userAgent||"";b=0>c.indexOf("Safari")||/Chrome|Coast|Opera|Edg|Silk|Android/.test(c)||11>((/Version\/([\d]+)/.exec(c)||[])[1]||"")?!1:!0}a=!b}if(a)return-1;var d=Ga("0");return Ue(1,100)<d?Ue(2,2):-1};var gh=new RegExp(/^(.*\.)?(google|youtube|blogger|withgoogle)(\.com?)?(\.[a-z]{2})?\.?$/),hh={cl:["ecl"],customPixels:["nonGooglePixels"],ecl:["cl"],ehl:["hl"],hl:["ehl"],html:["customScripts","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],customScripts:["html","customPixels","nonGooglePixels","nonGoogleScripts","nonGoogleIframes"],nonGooglePixels:[],nonGoogleScripts:["nonGooglePixels"],nonGoogleIframes:["nonGooglePixels"]},ih={cl:["ecl"],customPixels:["customScripts","html"],
 ecl:["cl"],ehl:["hl"],hl:["ehl"],html:["customScripts"],customScripts:["html"],nonGooglePixels:["customPixels","customScripts","html","nonGoogleScripts","nonGoogleIframes"],nonGoogleScripts:["customScripts","html"],nonGoogleIframes:["customScripts","html","nonGoogleScripts"]},jh="google customPixels customScripts html nonGooglePixels nonGoogleScripts nonGoogleIframes".split(" ");
-var lh=function(a){var b;Ke("gtm.allowlist")&&D(52);b||(b=Ke("gtm.whitelist"));b&&D(9);b="google gtagfl lcl zone oid op".split(" ");
-var c=b&&Qa(Ia(b),hh),d;Ke("gtm.blocklist")&&D(51);d||(d=Ke("gtm.blacklist"));d||(d=Ke("tagTypeBlacklist"))&&D(3);d?D(8):d=[];kh()&&(d=Ia(d),d.push("nonGooglePixels","nonGoogleScripts","sandboxedScripts"));0<=Aa(Ia(d),"google")&&D(2);var e=
+var lh=function(a){var b;Ke("gtm.allowlist")&&D(52);b=Ke("gtm.allowlist");b||(b=Ke("gtm.whitelist"));b&&D(9);b="google gtagfl lcl zone oid op".split(" ");
+var c=b&&Qa(Ia(b),hh),d;Ke("gtm.blocklist")&&D(51);d=Ke("gtm.blocklist");d||(d=Ke("gtm.blacklist"));d||(d=Ke("tagTypeBlacklist"))&&D(3);d?D(8):d=[];kh()&&(d=Ia(d),d.push("nonGooglePixels","nonGoogleScripts","sandboxedScripts"));0<=Aa(Ia(d),"google")&&D(2);var e=
 d&&Qa(Ia(d),ih),f={};return function(h){var k=h&&h[Pb.Ea];if(!k||"string"!=typeof k)return!0;k=k.replace(/^_*/,"");if(void 0!==f[k])return f[k];var l=fe[k]||[],n=a(k,l);if(b){var p;if(p=n)a:{if(0>Aa(c,k))if(l&&0<l.length)for(var r=0;r<l.length;r++){if(0>Aa(c,l[r])){D(11);p=!1;break a}}else{p=!1;break a}p=!0}n=p}var t=!1;if(d){var q=0<=Aa(e,k);if(q)t=q;else{var v=Ea(e,l||[]);v&&D(10);t=v}}var u=!n||t;u||!(0<=Aa(l,"sandboxedScripts"))||c&&-1!==Aa(c,"sandboxedScripts")||(u=Ea(e,jh));return f[k]=u}},
 kh=function(){return gh.test(F.location&&F.location.hostname)};var mh={active:!0,isAllowed:function(){return!0}},nh=function(a){var b=L.zones;return b?b.checkState(Ud.B,a):mh},oh=function(a){var b=L.zones;!b&&a&&(b=L.zones=a());return b};var ph=function(){},qh=function(){};var rh=!1,sh=0,th=[];function uh(a){if(!rh){var b=H.createEventObject,c="complete"==H.readyState,d="interactive"==H.readyState;if(!a||"readystatechange"!=a.type||c||!b&&d){rh=!0;for(var e=0;e<th.length;e++)J(th[e])}th.push=function(){for(var f=0;f<arguments.length;f++)J(arguments[f]);return 0}}}function vh(){if(!rh&&140>sh){sh++;try{H.documentElement.doScroll("left"),uh()}catch(a){F.setTimeout(vh,50)}}}var wh=function(a){rh?a():th.push(a)};var xh={},yh={},zh=function(a,b,c,d){if(!yh[a]||Xd[b]||"__zone"===b)return-1;var e={};Xa(d)&&(e=m(d,e));e.id=c;e.status="timeout";return yh[a].tags.push(e)-1},Ah=function(a,b,c,d){if(yh[a]){var e=yh[a].tags[b];e&&(e.status=c,e.executionTime=d)}};function Bh(a){for(var b=xh[a]||[],c=0;c<b.length;c++)b[c]();xh[a]={push:function(d){d(Ud.B,yh[a])}}}
 var Eh=function(a,b,c){yh[a]={tags:[]};xa(b)&&Ch(a,b);c&&F.setTimeout(function(){return Bh(a)},Number(c));return Dh(a)},Ch=function(a,b){xh[a]=xh[a]||[];xh[a].push(Ma(function(){return J(function(){b(Ud.B,yh[a])})}))};function Dh(a){var b=0,c=0,d=!1;return{add:function(){c++;return Ma(function(){b++;d&&b>=c&&Bh(a)})},qg:function(){d=!0;b>=c&&Bh(a)}}};var Fh=function(){function a(d){return!ya(d)||0>d?0:d}if(!L._li&&F.performance&&F.performance.timing){var b=F.performance.timing.navigationStart,c=ya(Le.get("gtm.start"))?Le.get("gtm.start"):0;L._li={cst:a(c-b),cbt:a(ce-b)}}};var Jh={},Kh=function(){return F.GoogleAnalyticsObject&&F[F.GoogleAnalyticsObject]},Lh=!1;
@@ -668,7 +668,7 @@ Z.a.gtagua=["google"],function(){(function(a){Z.__gtagua=a;Z.__gtagua.b="gtagua"
 
 
 var Vo={};Vo.macro=function(a){if(xl.Rc.hasOwnProperty(a))return xl.Rc[a]},Vo.onHtmlSuccess=xl.Ge(!0),Vo.onHtmlFailure=xl.Ge(!1);Vo.dataLayer=Le;Vo.callback=function(a){ee.hasOwnProperty(a)&&xa(ee[a])&&ee[a]();delete ee[a]};function Wo(){L[Ud.B]=Vo;Na(fe,Z.a);Ib=Ib||xl;Jb=Vb}
-function Xo(){gd.gtm_3pds=!0;gd.gtag_cs_api=!0;L=F.google_tag_manager=F.google_tag_manager||{};Zi();if(L[Ud.B]){var a=L.zones;a&&a.unregisterChild(Ud.B);
+function Xo(){gd.gtm_3pds=!0;gd.gtag_cs_api=!0;gd.tcf_restrictions=!0;L=F.google_tag_manager=F.google_tag_manager||{};Zi();if(L[Ud.B]){var a=L.zones;a&&a.unregisterChild(Ud.B);
 }else{for(var b=data.resource||{},c=b.macros||[],d=0;d<c.length;d++)Ab.push(c[d]);for(var e=b.tags||[],f=0;f<e.length;f++)Db.push(e[f]);for(var h=b.predicates||[],k=0;k<h.length;k++)Cb.push(h[k]);for(var l=b.rules||[],n=0;n<l.length;n++){for(var p=l[n],r={},t=0;t<p.length;t++)r[p[t][0]]=Array.prototype.slice.call(p[t],1);Bb.push(r)}Fb=Z;Gb=Om;Wo();wl();rh=!1;sh=0;if("interactive"==H.readyState&&!H.createEventObject||
 "complete"==H.readyState)uh();else{Zc(H,"DOMContentLoaded",uh);Zc(H,"readystatechange",uh);if(H.createEventObject&&H.documentElement.doScroll){var q=!0;try{q=!F.frameElement}catch(y){}q&&vh()}Zc(F,"load",uh)}Gk=!1;"complete"===H.readyState?Ik():Zc(F,"load",Ik);a:{
 if(!Ae)break a;F.setInterval(Be,864E5);}ce=(new Date).getTime();Vo.bootstrap=ce;}}
@@ -848,7 +848,7 @@ summary {
 
 <h1 class="title toc-ignore">FOSS For Spectroscopy</h1>
 <h4 class="author">Bryan A. Hanson, DePauw University</h4>
-<h4 class="date">2020-10-08</h4>
+<h4 class="date">2020-10-15</h4>
 
 </div>
 
@@ -1000,7 +1000,7 @@ Python
 NMR (1D)
 </td>
 <td style="text-align:left;">
-2020-10-07
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -1255,7 +1255,7 @@ Python
 XAS
 </td>
 <td style="text-align:left;">
-2020-10-05
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -1272,7 +1272,7 @@ Python
 UV
 </td>
 <td style="text-align:left;">
-2020-09-19
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -1510,7 +1510,7 @@ C++
 UV-VIS-IR
 </td>
 <td style="text-align:left;">
-2020-09-21
+2020-10-08
 </td>
 </tr>
 <tr>
@@ -1544,7 +1544,7 @@ Python
 NMR
 </td>
 <td style="text-align:left;">
-2020-10-02
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -1629,7 +1629,7 @@ Java
 NMR
 </td>
 <td style="text-align:left;">
-2020-09-08
+2020-10-13
 </td>
 </tr>
 <tr>
@@ -1663,7 +1663,7 @@ XML
 Data sharing (NMR)
 </td>
 <td style="text-align:left;">
-2019-11-12
+2020-10-13
 </td>
 </tr>
 <tr>
@@ -1866,7 +1866,7 @@ Java
 XRF
 </td>
 <td style="text-align:left;">
-2020-10-05
+2020-10-13
 </td>
 </tr>
 <tr>
@@ -2035,7 +2035,7 @@ Python
 Data Sharing (NMR)
 </td>
 <td style="text-align:left;">
-2020-10-05
+2020-10-08
 </td>
 </tr>
 <tr>
@@ -2069,7 +2069,7 @@ Python
 NMR, ESR
 </td>
 <td style="text-align:left;">
-2020-10-07
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -2103,7 +2103,7 @@ Python
 Data Sharing
 </td>
 <td style="text-align:left;">
-2020-09-10
+2020-10-12
 </td>
 </tr>
 <tr>
@@ -2120,7 +2120,7 @@ Python
 Any
 </td>
 <td style="text-align:left;">
-2020-10-05
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -2239,7 +2239,7 @@ R
 Vis-IR
 </td>
 <td style="text-align:left;">
-2020-09-25
+2020-10-12
 </td>
 </tr>
 <tr>
@@ -2409,7 +2409,7 @@ Julia
 Any
 </td>
 <td style="text-align:left;">
-2020-09-04
+2020-10-09
 </td>
 </tr>
 <tr>
@@ -2477,7 +2477,7 @@ Python
 UV-Vis
 </td>
 <td style="text-align:left;">
-2020-10-07
+2020-10-14
 </td>
 </tr>
 <tr>
@@ -2494,7 +2494,7 @@ Python
 UV-Vis
 </td>
 <td style="text-align:left;">
-2020-02-24
+2020-10-12
 </td>
 </tr>
 <tr>
@@ -2613,7 +2613,7 @@ Python
 Time series
 </td>
 <td style="text-align:left;">
-2020-07-06
+2020-10-08
 </td>
 </tr>
 <tr>
@@ -2630,7 +2630,7 @@ Python
 Raman
 </td>
 <td style="text-align:left;">
-2020-10-06
+2020-10-14
 </td>
 </tr>
 <tr>
